@@ -1,0 +1,120 @@
+# AI Visibility Audit — Scoring Worksheet
+### Dark Horse Strategies · AI GTM Visibility Framework
+
+Copy this template for each brand you audit.
+Run the 25 prompts in `/prompts/25-llm-audit-prompts.md` before completing.
+
+---
+
+**Brand audited:**
+**Date:**
+**Auditor:**
+**LLM surfaces tested:** (check all used)
+- [ ] ChatGPT
+- [ ] Perplexity
+- [ ] Gemini
+- [ ] Claude
+- [ ] Microsoft Copilot
+- [ ] Google AI Mode
+
+---
+
+## Surface Scores
+
+Score each surface 1–10 using the rubric in `/framework/12-surface-methodology.md`.
+Note the primary evidence for your score and the single most important gap.
+
+| # | Surface | Score (1–10) | Tier | Primary evidence | Key gap |
+|---|---|---|---|---|---|
+| 1 | AI Interfaces (LLMs) | | | | |
+| 2 | Search + AI-Augmented Search | | | | |
+| 3 | Review + Reputation Platforms | | | | |
+| 4 | Earned Media + Publishers | | | | |
+| 5 | Owned Content + Website Structure | | | | |
+| 6 | Technical + Developer Surfaces | | | | |
+| 7 | Social + Authority Signals | | | | |
+| 8 | Data Aggregators + Knowledge Graphs | | | | |
+| 9 | Marketplaces + Ecosystems | | | | |
+| 10 | Case Studies + Proof Layers | | | | |
+| 11 | Community + Q&A Platforms | | | | |
+| 12 | Enterprise + Private AI | | | | |
+| | **AVERAGE** | | | | |
+
+**Overall grade:** _____ (A/B/C/D/F — see grading scale in methodology doc)
+
+---
+
+## Vertical breakdown (if applicable)
+
+For brands with multiple practice areas or verticals, score Surface 1 by vertical:
+
+| Vertical | AI Interface Score | Key gap |
+|---|---|---|
+| | | |
+| | | |
+| | | |
+
+---
+
+## LLM prompt log
+
+Record results from the 25-prompt audit:
+
+| Prompt # | Query (abbreviated) | LLM | Appeared? | Position | Language used | Sources cited |
+|---|---|---|---|---|---|---|
+| 1 | Best-in-class | ChatGPT | | | | |
+| 1 | Best-in-class | Perplexity | | | | |
+| 1 | Best-in-class | Gemini | | | | |
+| 2 | Problem-first | ChatGPT | | | | |
+| 2 | Problem-first | Perplexity | | | | |
+| 3 | Category definition | ChatGPT | | | | |
+| 4 | Alternatives | ChatGPT | | | | |
+| 4 | Alternatives | Perplexity | | | | |
+| 6 | Brand definition | ChatGPT | | | | |
+| 6 | Brand definition | Perplexity | | | | |
+| 8 | Brand vs competitor | ChatGPT | | | | |
+| 16 | Category shortlist | ChatGPT | | | | |
+| 16 | Category shortlist | Perplexity | | | | |
+| 21 | Review signal | ChatGPT | | | | |
+| 22 | Community signal | Perplexity | | | | |
+| 23 | Technical credibility | ChatGPT | | | | |
+| 24 | Knowledge graph | ChatGPT | | | | |
+| 25 | Buyer journey | ChatGPT | | | | |
+
+---
+
+## 90-day activation priorities
+
+Based on Tier 3 scores, list immediate actions in priority order:
+
+**Days 0–30 (Tier 3 quick wins):**
+1.
+2.
+3.
+4.
+5.
+
+**Days 30–60 (Tier 2 improvements):**
+1.
+2.
+3.
+
+**Days 60–90 (structural investments):**
+1.
+2.
+
+---
+
+## Estimated impact
+
+| Action | Surface(s) affected | Expected visibility gain | Effort | Cost est. |
+|---|---|---|---|---|
+| | | | | |
+| | | | | |
+| | | | | |
+
+---
+
+*Part of the [Dark Horse Strategies AI GTM Visibility Framework](https://github.com/darkhorsestrategies/ai-gtm-visibility-framework)*
+*→ [darkhorsecapabilities.lovable.app](https://darkhorsecapabilities.lovable.app)*
+
