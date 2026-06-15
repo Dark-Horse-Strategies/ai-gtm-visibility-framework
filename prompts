@@ -1,0 +1,222 @@
+# 25 LLM Audit Prompts for B2B AI Visibility
+### Dark Horse Strategies · AI GTM Visibility Framework
+
+Run these prompts across ChatGPT, Perplexity, Gemini, Claude, and Microsoft Copilot.
+Log your results in the scoring template at `/templates/audit-scoring-worksheet.md`.
+
+**How to use:**
+- Replace `[BRAND]`, `[CATEGORY]`, `[ICP]`, and `[COMPETITOR]` with your specifics
+- Run each prompt on at least 3 LLM surfaces for meaningful comparison
+- Note: position in the response, language used to describe the brand, and sources cited
+- A brand that doesn't appear in prompts 1–5 has a critical Surface 1 (AI Interface) gap
+
+---
+
+## TIER 1: CATEGORY AWARENESS PROMPTS
+*These simulate how buyers first discover your category. If you don't appear here, you're invisible at the top of the funnel.*
+
+**Prompt 1 — Best-in-class query**
+```
+What are the best [CATEGORY] companies for [ICP]?
+```
+*What to look for: Does your brand appear? At what position? What language is used?*
+
+**Prompt 2 — Problem-first discovery**
+```
+I'm a [ICP ROLE] at a [ICP COMPANY TYPE] and I need to [CORE PROBLEM YOUR PRODUCT SOLVES]. What should I be looking at?
+```
+*What to look for: Does the AI connect your category to this problem? Does your brand appear?*
+
+**Prompt 3 — Category definition**
+```
+What is [CATEGORY] and which companies are considered leaders in this space?
+```
+*What to look for: Is your brand named in the leaders list? What sources does the AI cite?*
+
+**Prompt 4 — Alternatives query**
+```
+What are the best alternatives to [COMPETITOR] for [USE CASE]?
+```
+*What to look for: Are you named as an alternative? This is a high-intent buying signal query.*
+
+**Prompt 5 — Recommendation for ICP**
+```
+What [CATEGORY] solution would you recommend for a [COMPANY SIZE] [INDUSTRY] company?
+```
+*What to look for: Do you appear for your specific ICP segment?*
+
+---
+
+## TIER 2: BRAND ENTITY PROMPTS
+*These reveal how AI systems understand your brand — and whether they understand it at all.*
+
+**Prompt 6 — Brand definition**
+```
+What is [BRAND] and what do they do?
+```
+*What to look for: Is the description accurate and current? Does it reflect your positioning or a stale version of it?*
+
+**Prompt 7 — Brand credibility**
+```
+Is [BRAND] a reputable company in the [CATEGORY] space?
+```
+*What to look for: What signals does the AI cite as evidence of credibility? Reviews, press coverage, awards?*
+
+**Prompt 8 — Brand vs. competitor**
+```
+Compare [BRAND] with [COMPETITOR]. What are the key differences?
+```
+*What to look for: How does the AI characterize your differentiation? Is it accurate?*
+
+**Prompt 9 — Recent news**
+```
+What's new with [BRAND] in 2025 or 2026?
+```
+*What to look for: Does the AI have current information? Stale or wrong answers indicate a Surface 5 (owned content) or Surface 8 (knowledge graph) gap.*
+
+**Prompt 10 — Leadership and expertise**
+```
+Who are the key people at [BRAND] and what are they known for?
+```
+*What to look for: Does the AI know your leadership team? Executive visibility is a Surface 7 signal.*
+
+---
+
+## TIER 3: SERVICE / CAPABILITY PROMPTS
+*These simulate how buyers evaluate vendors during the shortlist phase.*
+
+**Prompt 11 — Capability verification**
+```
+Does [BRAND] offer [SPECIFIC SERVICE OR CAPABILITY]?
+```
+*What to look for: Can the AI confirm your core capabilities? If not, you have a Surface 5 gap.*
+
+**Prompt 12 — Proof of work**
+```
+What are some examples of [BRAND]'s work or client results?
+```
+*What to look for: Does the AI surface any case studies or outcomes? If not, Surface 10 (proof layers) is the gap.*
+
+**Prompt 13 — Vertical specialization**
+```
+Does [BRAND] have experience working with [VERTICAL/INDUSTRY] companies?
+```
+*What to look for: Can the AI confirm your vertical expertise? Important for multi-practice brands.*
+
+**Prompt 14 — Pricing signal**
+```
+How much does [BRAND] cost? What's their pricing model?
+```
+*What to look for: What signals does the AI use? Clutch project disclosures, case study language, press mentions.*
+
+**Prompt 15 — Process and methodology**
+```
+How does [BRAND] approach [CORE SERVICE]? What's their methodology?
+```
+*What to look for: Does the AI have any methodological understanding of your approach? This requires Surface 5 answer-object content.*
+
+---
+
+## TIER 4: COMPETITIVE LANDSCAPE PROMPTS
+*These reveal how you're positioned relative to competitors in AI-generated shortlists.*
+
+**Prompt 16 — Category shortlist**
+```
+Give me a shortlist of 5 [CATEGORY] companies I should evaluate, with pros and cons of each.
+```
+*What to look for: Are you on the shortlist? What pros and cons does the AI attribute to you?*
+
+**Prompt 17 — Niche leader query**
+```
+Who are the best [CATEGORY] companies specifically for [YOUR NICHE ICP]?
+```
+*What to look for: Do you appear when queries get more specific to your actual ICP?*
+
+**Prompt 18 — Market tier**
+```
+What are the top enterprise [CATEGORY] companies vs. the best options for mid-market?
+```
+*What to look for: Where does the AI place you in the market tier? Is it accurate?*
+
+**Prompt 19 — Competitor strength**
+```
+What is [COMPETITOR] known for and why do companies choose them?
+```
+*What to look for: Understand how AI describes your primary competitor — this is the narrative you're competing against.*
+
+**Prompt 20 — Category trends**
+```
+What are the emerging trends in [CATEGORY] in 2026 and which companies are leading them?
+```
+*What to look for: Is your brand associated with any emerging category trends? If not, you're ceding thought leadership positioning to competitors.*
+
+---
+
+## TIER 5: SURFACE-SPECIFIC DIAGNOSTIC PROMPTS
+*These pinpoint which of the 12 surfaces is your weakest link.*
+
+**Prompt 21 — Review signal diagnostic**
+```
+What do customers say about [BRAND]? Are there reviews or testimonials available?
+```
+*Maps to: Surface 3 (Reviews). If the AI can't answer, you need more Clutch/G2 reviews.*
+
+**Prompt 22 — Community signal diagnostic**
+```
+What do people say about [BRAND] on Reddit or in online communities?
+```
+*Maps to: Surface 11 (Community). If blank, you have no Reddit presence feeding LLM citations.*
+
+**Prompt 23 — Technical credibility diagnostic**
+```
+Does [BRAND] publish any technical content, frameworks, or open-source tools?
+```
+*Maps to: Surface 6 (Technical/Developer). Most brands will score 0 here — this is the whitespace.*
+
+**Prompt 24 — Knowledge graph diagnostic**
+```
+What is [BRAND]'s founding story, key milestones, and current leadership?
+```
+*Maps to: Surface 8 (Knowledge Graph). If the AI gets facts wrong or returns nothing, you need Wikipedia and Wikidata.*
+
+**Prompt 25 — Buyer journey diagnostic**
+```
+If I wanted to learn more about [BRAND] before deciding to work with them, where should I look?
+```
+*Maps to: Surfaces 3, 4, 5, 10 collectively. The AI's answer reveals which proof surfaces it considers authoritative for your brand.*
+
+---
+
+## Logging your results
+
+For each prompt, record:
+- Which LLM you used
+- Whether your brand appeared (Y/N)
+- Position in response (1st mention, 3rd mention, not mentioned)
+- Language used to describe your brand
+- Sources cited by the LLM (when shown)
+- Date of test
+
+Use `/templates/audit-scoring-worksheet.md` to compile results into a surface score.
+
+---
+
+## What to do with your results
+
+| Result | Root cause | Primary fix |
+|---|---|---|
+| Not appearing in prompts 1–5 | Surface 1 (AI Interface) gap | Earn editorial coverage in high-authority publications; build Reddit presence |
+| Appears but description is wrong/stale | Surface 8 (Knowledge Graph) gap | Create Wikipedia entry; update Wikidata; restructure owned content |
+| Appears for branded queries but not category queries | Surface 4 (Earned Media) gap | Earn coverage in category-defining publications; build answer-object pages |
+| Appears in tech/cyber but not new verticals | Surface 5 (Owned Content) gap | Build practice-specific answer-object pages with FAQ schema |
+| Competitors appear; you don't | Surface 3 (Reviews) or Surface 11 (Community) gap | Drive Clutch/G2 review volume with vertical tags; activate Reddit participation |
+| Described as smaller/less credible than accurate | Surface 10 (Proof Layers) gap | Publish case studies with outcome metrics in AI-extractable format |
+| Not appearing in financial/professional services queries | Surface 4 + 7 gap | Vertical trade editorial placements + executive LinkedIn publishing in that vertical |
+
+---
+
+*Part of the [Dark Horse Strategies AI GTM Visibility Framework](https://github.com/darkhorsestrategies/ai-gtm-visibility-framework)*
+*→ [darkhorsecapabilities.lovable.app](https://darkhorsecapabilities.lovable.app)*
+
+*Last updated: June 2026*
+
